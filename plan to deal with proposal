@@ -1,0 +1,17 @@
+feature is slowfast feature including validation and testing 
+checkpoint is pre-trained tcanet model for slowfast features 
+proposals is bmn proposals 
+classification is the best classification results
+
+  then do training and testing tcanet concloud all configrations of tcanet are saved in opts.py
+unzip     tar     jxvg bzip2 后缀 .tar.bz2       x 解打包或解压缩 可与-C搭配在指定位置解开       v  在压缩 解压缩时吧正在处理的文件名显示出来      f 
+
+---------------------
+i3d (two-stream inflated 3d ConvNets) 
+第一个贡献 构建了一个kinetics数据集 效仿ImageNet大规模数据集能获得更好的效果在其他领域和任务  尝试在此数据集上得到一个模型能够在小数据集上取得更好效果 （HMD51，UCF101等
+第二个贡献 总结了前人主流视频动作识别模型，
+  1.2d卷积处理单帧 然后使用aggregation或者lstm融合特征
+  2.3dconv 参数大 训练难度大
+  ？3.two-stream网络 lstm只能获取高层次明显的动作 低层次乏力（我认为高层次指的是出现的频率多的一些特征在多层次模型中也会相应占比更大） 反向传递时多帧铺垫，训练耗时 
+  简单来说 双流 就是 两个2dconv模型 rgb+optical flow
+  
