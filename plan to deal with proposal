@@ -2,6 +2,10 @@ feature is slowfast feature including validation and testing
 checkpoint is pre-trained tcanet model for slowfast features 
 proposals is bmn proposals 
 classification is the best classification results
+特征是慢速特征包括验证和测试
+检查点是预先训练的tcanet模型用于慢速功能
+proposal是bmn建议
+分类是最好的分类结果
 
   then do training and testing tcanet concloud all configrations of tcanet are saved in opts.py
 unzip     tar     jxvg bzip2 后缀 .tar.bz2       x 解打包或解压缩 可与-C搭配在指定位置解开       v  在压缩 解压缩时吧正在处理的文件名显示出来      f 
